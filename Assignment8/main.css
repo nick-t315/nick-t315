@@ -1,0 +1,155 @@
+body {
+  font-family: Arial, sans-serif;
+  width: 1400px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-right:40px;
+  border-width:40px;
+  text-align: justify
+}
+
+
+header {
+  background-color: #cc0000;
+  font-size: 20px;
+  color: white;
+  padding-top: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 15px;
+}
+h3 { 
+  background-color: #cc0000;
+  font-size: 20px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-bottom: 15px;
+}
+.credit {
+  color: gray;
+  font-size: 12px;
+  text-align: right;
+  font-style: italic;
+  padding-right: 10%;
+}
+.img2 {
+  max-width: 10%;
+  height: auto;
+}
+.timestamp {
+  color: #gray;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 4px;
+  font: helvatica;
+}
+.subheader {
+    clear: inherit;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 1px;
+    padding-bottom: 20px;
+}
+
+.mainimg {
+  width: 10px
+
+}
+
+
+h1 {
+  font-style: normal;
+  font-size: 40px;
+  font-family: inherit;
+  text-align: left;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 1.5rem;
+}
+a {
+  color: black;
+}
+p {
+  font-size: 16px;
+  letter-spacing: .4px;
+  font-family: Helvetica;
+  font-weight: normal;
+  font-style: normal;
+  max-width: 1000px;
+}
+.header__wrapper-outer {
+    position: sticky;
+    z-index: 10000;
+    height: 40px;
+    top: 0;
+    pointer-events: none;
+}
+.caption {
+    color: dimgrey;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 8px;
+    text-align: left;
+    order: 2;
+  }
+
+.otherimg {
+  max-width: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+p1 { 
+  font-size: 20px;
+  margin-left: auto;
+  font-family: times new roman, sans-serif;
+}
+.byline__image {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 4px;
+}
+{
+  box-sizing: border-box;
+}
+
+
+.navbar {
+  background-color: #cc0000;;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #cc0000;;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: ##cc0000;;
+  color: black;
+}
+
+
+}
+svg 
+
