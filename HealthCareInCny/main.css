@@ -1,0 +1,53 @@
+body {
+  margin: 0px;
+}
+
+.sitename {
+  padding-right: 10px;
+  padding-top: 5px;
+}
+
+article {
+  margin-left: 10%;
+  width: 60%;
+}
+
+h1 {
+  font-size: 46px;
+  text-align: Center;
+  font-family: serif;
+}
+
+.story_image {
+  width: 100%;
+}
+
+footer {
+  margin-top: 30px;
+  font-family: Basier, Arial, sans-serif;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #717171;
+  text-decoration-color: #ffcb04;
+}
+
+.byline {
+  text-align: center;
+  font-size: 30px;
+  color: gray;
+}
+.credit {
+  color: gray;
+  font-size: 12px;
+  text-align: right;
+  font-style: italic;
+  padding-right: 10%;
+}
+p {
+  text-align: justify;
+}

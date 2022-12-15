@@ -1,0 +1,165 @@
+<html>
+	<Head>
+		<link rel="stylesheet" href="main.css">
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="fonts/fonts.css">
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+	</Head>
+	<!---NAVBAR START---->
+		<nav class="navbar" style="background-color: #C63516;">
+				<nav class="navbar navbar-expand-lg">
+			  <div class="container-fluid">
+			    <a class="navbar-brand" href="#">Health Costs in CNY</a>
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			        <li class="nav-item">
+			          <a class="nav-link active" aria-current="page" href="final.html">Home</a>
+			        </li>
+			        <li class="nav-item">
+			          <a class="nav-link" href="https://health.data.ny.gov/Health/Hospital-Inpatient-Cost-Transparency-Beginning-200/7dtz-qxmr/data" target="_blank">Data Source</a>
+			        </li>
+			        <li class="nav-item dropdown">
+			          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			            Hospital Healthcare Transparency Pages
+			          </a>
+			          <ul class="dropdown-menu">
+			 			<li><a class="dropdown-item" href="https://www.sjhsyr.org/for-patients/billing-and-insurance/price-estimates-lists" target="_blank">Saint Joes</a></li>
+			            <li><a class="dropdown-item" href="https://www.upstate.edu/hospital/patients-families/billing/#pricing-transparency" target="blank">Upstate</a></li>
+			            <li><a class="dropdown-item" href="https://www.crouse.org/prices/" target="blank">Crouse</a></li>
+			          </ul>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+		</nav>
+	<!-----NAVBAR END----->
+	<!----HEADLINE------>
+			<H1>
+				What Does Health Care Cost in CNY?
+			</H1>
+				<div class="byline">
+					By Nick Testani
+				</div>
+	<!------HEADLINE END----->
+
+	<body>
+		<div class="container">
+			<hr>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="https://advancelocal-adapter-image-uploads.s3.amazonaws.com/image.syracuse.com/home/syr-media/width2048/img/health_impact/photo/crouse-hospital-clock-tower-42f4ed3fd5e17833.jpg" width="400" height="200"  border="1px solid #555" class="img-fluid" alt="...">
+					<div class="credit">
+					CREDIT: SYRACUSE.COM
+					</div>
+				</div>
+				
+				<div class="col-md-4">
+					<img src="https://www.cnybj.com/media/5057/st-josephs-rear-facade-er-f.jpg" width="350" height="300" border="1px solid #555" class="img-fluid" alt="...">
+					<div class="credit">
+					CREDIT: SYRACUSE.COM
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<img src="https://www.syracuse.com/resizer/VdPOyqS9DpCrA9s8CJ7nYjP9yTM=/arc-anglerfish-arc2-prod-advancelocal/public/3K47FCXADFF65B3POYWZ4LMVTM.jpg" width="250" border="1px solid #555" class="img-fluid">
+					 <div class="credit">
+					CREDIT: SYRACUSE.COM
+					</div>
+			</div>
+		</div>
+		<br>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-md-8">
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beginning in 2020 the Trump Administration created the Transparency in Coverage Rule which required Health Insurers to release the costs of different procedures in an effort to create a more equitable marketplace. The intended goal is to allow consumers to be able to shop around and compare the costs of procedures from one hospital to next with the price negotiated by insurers. The rule which began to take effect on January 1st of 2021 has been hailed as a way of helping patients get a clearer image of the healthcare they receive. The rule also mandates that they must be consumer friendly and easy to find. The Center for Medicare and Medicaid Services defines it as, “Consumer-friendly means the hospital charge information must be made public in a prominent location online (or in written form upon request) that it is easily accessible, without barriers, and searchable.” However the new ruling has largely been seen as something that hospitals can flout. One study conducted by the New York Health Foundation found that by July 2021 68% of hospitals had released machine readable files and 69% of hospitals had released shoppable services. Shoppable Services are defined by the CMS as, “services are services that can be scheduled by a healthcare consumer in advance.”</p>
+					
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In New York state the collection of patient data has been evolving since 1979 as part of the Statewide Research and Planning Cooperation System. The state government describes it as “[A] system was initially created to collect information on discharges from hospitals. SPARCS currently collects patient-level detail on patient characteristics, diagnoses and treatments, services, and charges for each hospital inpatient stay.” This data includes the inpatient stays across a variety of medical issues in the 3 major public hospitals in the Syracuse Region; Upstate Medical University, Saint Joseph’s Hospital, and Crouse Hospital. The data gives a unique insight into what healthcare looks like in the region and what it could cost. These figures were New Yorkers’ only access to transparent healthcare data until 2021.
+</p>
+				</div>
+
+				<div class="col-sm-12 col-md-4">
+						<iframe title="Mean Inpatient Costs across all Severity Levels" aria-label="Interactive line chart" id="datawrapper-chart-aoBrm" src="https://datawrapper.dwcdn.net/aoBrm/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+			</script>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Across all three of the hospitals in the region healthcare costs rose during the eight year span. Upstate's charges increased by 58% during this time frame. The American Medical Association essentially defines charges as what appears to be on a medical bill. Charges are what the provider looks to charge, a cost is what the patient would pay out of pocket after insurers and other deductions have been negotiated between the provider and the insurer. The charges are often double or even triple the cost of the procedure. The gulf in these prices can be unexplained, the American Medical Association says that there is little correlation between cost (not used in the healthcare sense) and effectiveness of surgery. Instead there are a myriad of reasons that cause this: including geographic, medical education, and indigent patients.</p>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm col-md-4">
+					<iframe title="Mean Cost and Charge at Crouse Hospital from 2009-2017 across all severity levels" aria-label="Interactive area chart" id="datawrapper-chart-ZBHJm" src="https://datawrapper.dwcdn.net/ZBHJm/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
+				</div>
+
+				<div class="col-sm col-md-4">
+						<iframe title="Mean Cost and Charge at Upstate Hospital from 2009-2017 across all severity levels" aria-label="Interactive area chart" id="datawrapper-chart-c73Vn" src="https://datawrapper.dwcdn.net/c73Vn/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
+				</div>
+
+				<div class="col-sm col-md-4">
+				<iframe title="Mean Cost and Charge at Saint Joseph's Hospital from 2009-2017 across all severity levels" aria-label="Interactive area chart" id="datawrapper-chart-MAgEz" src="https://datawrapper.dwcdn.net/MAgEz/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
+				</div>
+			</div>
+
+		</div>
+
+		<br>
+
+		</br>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm col-md-4">
+					<iframe title="Cost of a C-Section at Upstate Hospital" aria-label="Dot Plot" id="datawrapper-chart-7wuNS" src="https://datawrapper.dwcdn.net/7wuNS/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="762" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+						</script>
+				</div>
+
+				<div class="col-sm col-md-4">
+
+					<iframe title="Cost of a C-Section at Crouse Hospital " aria-label="Dot Plot" id="datawrapper-chart-4zseS" src="https://datawrapper.dwcdn.net/4zseS/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="627" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+					</script>
+				</div>	
+
+				<div class="col-sm col-md-4">
+
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For example the range in the Average Cost of a Cesarean Section across all severity levels varied from years and the costs would swap places. After declining for the 3 years from 2009 to 2012 the cost of C-Section rose steadily to 2017 at Upstate Hospital. This is the only hospital to have demonstrated a pattern in the costs of a C-Section, the others seem to be random in the way they operate. When it was last updated in August of 2021 the Cost of a C-Section at Saint Joe’s with no complications or comorbidities and no sterilization is listed at $14,669.83 at its discounted cash price. Despite being required Saint Joseph’s does not list the costs of different insurers simply writing “N/A” in the column. At Crouse the C-Section with cash pay without sterilizations and without complications and comorbidities was $11,441.72 Crouse made it easy to find these charges and listed insures too. When looking through this listed data Crouse had one insurer that was actually more expensive than the cash or self pay option, EmblemHealth costs $12,374.00. At Upsate the prices fluctuated without their being the a single cash pay option, Upstate instead only showed the costs of the it had negotiated with its insurers. In this case EmblemHealth had a cost of $13,845 for the same exact procedure. The short answer for healthcare costs is that there is a difference due to the geographic area and hospital reputation, Health Affairs says.</p>
+
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Now with the new transparency laws though the patients should be able to leverage the market and search, using both data from their insurer and from the hospitals to find where and when it is best for them. The Center for Medicaid and Medicare Services (a government agency) stated that they wanted hospitals compliant by providing both the shoppable services and a machine readable file of all the services that are offered. In January 2021 the CMS said it would begin doing random auditing to make sure that hospitals were compliant.
+					</p>
+
+				</div>
+
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm col-md-7">
+					<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As of December 2022, only two fines have been issued. When looking at the hospitals in the area there is a gap between what those in the area have available. Each hospital had addressed this differently, the one that appeared to be the most directly in violation of the federal rule was Upstate. It had no searchable function for shoppable services, and instead only had a machine readable file, but it did list them broken down by the insurance values. Saint Joseph’s hospital had both a separate machine readable file and searchable costs, however it did offer inconsistent information on what it did and did not have data for. Of over 3,700 procedures and 373 insurers it listed it had only offered 1.83% of the standard charges listed, the rest were filled in as N/A. Crouse hospital is the most comprehensive with its data provided, offering an interactive search system that also allows users to select their insurance information when they search and shows the cost of procedures. It also has updated its shoppable services, the most recent, having been done on May 9th, 2022. Saint Joseph’s last updated their information on August, 30th, 2021 and Upstate last updated its charges list on January 1st, 2022. When reached for comment about their transparency practices, none of the hospitals responded. 
+					</p>
+				</div>
+
+				<div class='col-sm col-md-5'>
+				<iframe title="Insurance Information Provided by Saint Joseph's Hospital" aria-label="Pie Chart" id="datawrapper-chart-h9WRn" src="https://datawrapper.dwcdn.net/h9WRn/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="431" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
+				</div>
+
+			</div>
+		</div>
+
+	</body>
+</html>
